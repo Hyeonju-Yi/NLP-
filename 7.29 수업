@@ -1,0 +1,53 @@
+7/29(월)
+강의질문/건의: forms.gle/rF8WXtyvRLvKS5mT9
+
+CPython = 표준파이썬 
+
+책 추천
+1. 모두의 데이터과학 with 파이썬
+2. 파이썬 데이터사이언스 핸드북 : 기초부터 사용법 모두를 확인하고 싶다.
+영문판 https://tanthiamhuat.files.wordpress.com/2018/04/pythondatasciencehandbook.pdf
+3. 모두의 파이썬 : 입문하기 쉬움. 흥미 유발
+5. 점프 투 파이썬(https://wikidocs.net/2)
+
+예제 연습: http://codingdojang.com/list/1?sort=level&sort_order=fw
+파이썬 코딩도장: https://dojang.io/course/view.php?id=7
+
+
+버전 확인: python -V
+디렉토리 확인 : dir
+새로운 폴더 생성: midir
+
+Anaconda 가상환경 만들기: 
+conda create -n [저장명] python=3.6 [같이 설치할 패키지 목록]
+가상환경 활성화: activate [저장명]
+가상환경 비활성화: conda deactivate
+가상환경 삭제: conda remove --name [저장명] -all
+Anaconda에서 패키지 설치하기
+: conda install -n [저장명] numpy
+
+메모장에 내용 입력 > 저장(00000.py), 모든파일, UTF-8로 저장 > prompt에서 실행:
+python 00000.py
+
+ipython에서는 함수 뒤에 ? 입력하여 그 기능을 확인 할 수 있음.
+
+Jupyter notebook 단축키
+Shift + Enter: run cell후 아래 셀을 선택, 아래 셀이 없으면 새로운 셀 추가
+Alt + Enter: run cell 후 아래에 새로운 셀을 추가
+Ctrl + Enter: run cell/ 셀 추가나 선택 x
+D : cell 삭제
+
+Cell이 실행된 후 Shift+Tab : 도움말
+Tab : 들여쓰기 및 탭 완성 기능
+
+M: 마크다운으로 변경 / Y: 코드로 변경
+편집 > 명령 : Esc / 명령 > 편집 : Enter
+Ctrl + / : 주석 처리
+
+마크다운 활용
+# 큰제목
+## 중간 제목
+### 작은 제목
+**문자** 로 강조
+표, 수식, 링크, 그림, 동영상 추가 가능
+
